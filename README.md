@@ -3,7 +3,7 @@ Google Reverse Image Search Application with Ionic Created By [@BaddourAbdallah]
 
 <b>Server side script:</b>
 
-1.Place the Server folder on your server, the folder contain the script that handle the image upload from the app and google reverse image search.
+Place the Server folder on your server, the folder contain the script that handle image uploading from the app and google reverse image search.
 
 <b>To setup the app:</b>
 
