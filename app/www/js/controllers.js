@@ -99,8 +99,8 @@ app.controller('revimageCtrl', function ($scope, $rootScope, $http, $ionicAction
 
   $scope.uploadImage = function () {
     $ionicLoading.show();
-    // Destination URL
-    var url = "http://10.0.0.19:8080/reverse_image_search/app_upload.php";
+    // Server path
+    var url = "http://127.0.0.1:8080/reverse_image_search/app_upload.php";
 
     // File for Upload
     var targetPath = $scope.pathForImage($scope.image);
