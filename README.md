@@ -1,7 +1,7 @@
 # Google Reverse Image Search Application
-Google Reverse Image Search Application with Ionic Created By [@BaddourAbdallah](http://twitter.com/baddourabdallah) Using [Ionic Framework](http://ionicframework.com/).
+Google Reverse Image Search Application Created By [@BaddourAbdallah](http://twitter.com/baddourabdallah) Using [Ionic Framework](http://ionicframework.com/).
 
-The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script support <b>Best Guess</b> & <b>All First page</b> data result scraping. (<b>PS:</b> I edit the script to return json data).
+The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script support <b>Best Guess</b> & <b>All First page</b> data scraping. (<b>PS:</b> I edit the script to handle the upload process from the mobile app and return json data).
 
 <b> Screenshots:</b>
 
@@ -23,7 +23,7 @@ The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script sup
 
 <b>Server side script:</b>
 
-Place the Server folder on your server, the folder contain the script that handle image uploading from the app and google reverse image search.
+Place all the files in the <b>Server</b> folder on your server, this folder contain the script that handle image uploading from the app and google reverse image search algorithm.
 
 <b>To setup the app:</b>
 
@@ -41,9 +41,9 @@ $ ionic start [appname] blank
 
 6.Install [cordovaFile](http://ngcordova.com/docs/plugins/file/).
 
-7.Install [cordovaInAppBrowser](http://ngcordova.com/docs/plugins/inAppBrowser/).
+7.Install [cordova-plugin-filepath](https://github.com/hiddentao/cordova-plugin-filepath).
 
-8.Install [cordova-plugin-filepath](https://github.com/hiddentao/cordova-plugin-filepath).
+8.Install [cordovaInAppBrowser](http://ngcordova.com/docs/plugins/inAppBrowser/).
 
 9.To build and run the app on android:
 ```bash
