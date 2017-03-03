@@ -23,7 +23,7 @@ The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script sup
 
 <b>II. Server side script:</b>
 
-Place all the files in the <b>Server</b> folder on your server, this folder contain the script that handle image uploading from the app and google reverse image search algorithm.
+Place all the files in the <b>server</b> folder on your server, this folder contain the script that handle image uploading from the app and google reverse image search algorithm.
 
 <b>III. App setup:</b>
 
