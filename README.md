@@ -9,15 +9,15 @@ Google Reverse Image Search Application with Ionic Created By [@BaddourAbdallah]
 
 2.Image from camera example:
 
-![Alt text](http://gulf-up.com/do.php?img=275662 "camera example")
+<img src="http://gulf-up.com/do.php?img=275662" width="288" height="512">
 
 3.Image from photo gallery example:
 
-![Alt text](http://gulf-up.com/do.php?img=275663 "photo gallery example")
+<img src="http://gulf-up.com/do.php?img=275663" width="288" height="512">
 
 4.Json response example:
 
-![Alt text](http://gulf-up.com/do.php?img=275664 "Json response example")
+<img src="http://gulf-up.com/do.php?img=275664" width="288" height="512">
 
 <b>Server side script:</b>
 
