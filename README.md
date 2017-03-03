@@ -4,8 +4,8 @@ Google Reverse Image Search Application with Ionic Created By [@BaddourAbdallah]
 <b> Screenshots:</b>
 
 1.Take picture or select image from photo gallery:
-<img src="http://gulf-up.com/do.php?img=275667" width="100" height="100">
-![Alt text](http://gulf-up.com/do.php?img=275667 "image selection")
+
+<img src="http://gulf-up.com/do.php?img=275667" width="288" height="512">
 
 2.Image from camera example:
 
