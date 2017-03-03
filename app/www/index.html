@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="Content-Security-Policy"
+        content=" img-src * data:;default-src *; script-src &apos;self&apos; &apos;unsafe-inline&apos; &apos;unsafe-eval&apos; *; style-src  &apos;self&apos; &apos;unsafe-inline&apos; *">
+  <title></title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- un-comment this code to enable service worker
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js')
+        .then(() => console.log('service worker installed'))
+        .catch(err => console.log('Error', err));
+    }
+  </script>-->
+
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+  <link href="css/ionic.app.css" rel="stylesheet">
+  -->
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+  <script src="cordova.js"></script>
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- your app's js -->
+  <script src="js/app.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+<body ng-app="app" ng-controller="revimageCtrl">
+
+<ion-pane>
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Reverse Image Search</h1>
+  </ion-header-bar>
+  <ion-content>
+    <img ng-show="image" ng-src="{{pathForImage(image)}}" style="width: 100%; height: 50%;">
+    <div class="card" ng-show="show">
+      <div class="item item-divider">
+        Best Guess:
+      </div>
+      <div class="item item-text-wrap">
+        {{title}}
+      </div>
+      <div class="item item-divider" ng-show="showlink">
+        <button class="button button-full button-assertive" ng-click="openInAppBrowser(link)">
+          Open Link In App Browser
+        </button>
+      </div>
+    </div>
+  </ion-content>
+  <ion-footer-bar class="bar bar-positive">
+    <div class="button-bar">
+      <a class="button icon-left ion-camera" ng-click="takeImage()">Selet picture</a>
+      <a class="button icon-left ion-upload" ng-click="uploadImage()" ng-disabled="image === null">Submit
+      </a>
+    </div>
+  </ion-footer-bar>
+</ion-pane>
+</body>
+</html>
