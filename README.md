@@ -1,7 +1,7 @@
 # GoogleReverseImageSearch
 Google Reverse Image Search Application with Ionic Created By [@BaddourAbdallah](http://twitter.com/baddourabdallah) Using [Ionic Framework](http://ionicframework.com/).
 
-The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script support <b>Best Guess</b> & <b>All First page data</b> result. (<b>PS:</b> I edit the script to return json data).
+The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script support <b>Best Guess</b> & <b>All First page</b> data result scraping. (<b>PS:</b> I edit the script to return json data).
 
 <b> Screenshots:</b>
 
