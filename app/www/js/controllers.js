@@ -134,7 +134,7 @@ app.controller('revimageCtrl', function ($scope, $rootScope, $http, $ionicAction
       }
     });
   }
-  $scope.openInAppBrowser = function (link) {
+  $scope.openInAppBrowser = function (title) {
     var options = {
       location: 'yes',
       clearcache: 'yes',
@@ -142,7 +142,12 @@ app.controller('revimageCtrl', function ($scope, $rootScope, $http, $ionicAction
     };
 
     document.addEventListener("deviceready", function () {
+      /*
+      //Search based on returned best guess link
       $cordovaInAppBrowser.open(link, '_blank', options)
+      */
+      //Search based on returned best guess title
+      $cordovaInAppBrowser.open('http://www.google.com/search?hl=en&safe=active&tbo=d&site=&source=hp&q='+title, '_blank', options)
         .then(function (event) {
           // success
         })
