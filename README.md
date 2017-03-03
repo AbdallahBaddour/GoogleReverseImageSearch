@@ -1,6 +1,23 @@
 # GoogleReverseImageSearch
 Google Reverse Image Search Application with Ionic Created By [@BaddourAbdallah](http://twitter.com/baddourabdallah) Using [Ionic Framework](http://ionicframework.com/).
 
+<b> Screenshots:</b>
+1.Take picture or select image from photo gallery:
+
+![Alt text](http://gulf-up.com/do.php?img=275667 "image selection")
+
+2.Image from camera example:
+
+![Alt text](http://gulf-up.com/do.php?img=275662 "camera example")
+
+3.Image from photo gallery example:
+
+![Alt text](http://gulf-up.com/do.php?img=275663 "photo gallery example")
+
+4.Json response example:
+
+![Alt text](http://gulf-up.com/do.php?img=275664 "Json response example")
+
 <b>Server side script:</b>
 
 Place the Server folder on your server, the folder contain the script that handle image uploading from the app and google reverse image search.
