@@ -25,7 +25,7 @@ The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script sup
 
 Place all the files in the <b>Server</b> folder on your server, this folder contain the script that handle image uploading from the app and google reverse image search algorithm.
 
-<b>III. Setup the app:</b>
+<b>III. App setup:</b>
 
 1.First create a new blank ionic project:
 ```bash
