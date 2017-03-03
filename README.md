@@ -3,7 +3,7 @@ Google Reverse Image Search Application Created By [@BaddourAbdallah](http://twi
 
 The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script support <b>Best Guess</b> & <b>All First page</b> data scraping. (<b>PS:</b> I edit the script to handle the upload process from the mobile app and return json data).
 
-<b> Screenshots:</b>
+<b>I. Screenshots:</b>
 
 1.Take picture or select image from photo gallery:
 
@@ -21,17 +21,17 @@ The [GoogleImageSearch](https://github.com/256cats/GoogleImageSearch) script sup
 
 <img src="http://gulf-up.com/do.php?img=275664" width="288" height="512">
 
-<b>Server side script:</b>
+<b>II. Server side script:</b>
 
 Place all the files in the <b>Server</b> folder on your server, this folder contain the script that handle image uploading from the app and google reverse image search algorithm.
 
-<b>To setup the app:</b>
+<b>III. Setup the app:</b>
 
 1.First create a new blank ionic project:
 ```bash
 $ ionic start [appname] blank
 ```
-2.Replace js folder and index.html of my project in the blank project you just create in the www folder.
+2.Replace <b>js</b> folder and <b>index.html</b> located in the <b>app</b> folder my project in the blank project you just create in the www folder.
 
 3.Install [ngCordova](http://ngcordova.com/docs/install/).
 
